@@ -12,8 +12,10 @@ namespace ConsoleCalculator {
             b = Convert.ToInt32(Console.ReadLine());
 
             c = a + b;
-
             Console.WriteLine($"Ответ сложение целых чисел: {c}");
+
+            c = a - b;
+            Console.WriteLine($"Ответ вычитание целых чисел: {c}");
         }
     }
 }
