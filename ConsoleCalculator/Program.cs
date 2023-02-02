@@ -16,6 +16,9 @@ namespace ConsoleCalculator {
 
             c = a - b;
             Console.WriteLine($"Ответ вычитание целых чисел: {c}");
+
+            c = a / b;
+            Console.WriteLine($"Ответ деление целых чисел: {c}");
         }
     }
 }
