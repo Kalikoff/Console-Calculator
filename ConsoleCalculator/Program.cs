@@ -18,8 +18,10 @@ namespace ConsoleCalculator {
             Console.WriteLine($"Ответ вычитание целых чисел: {c}");
 
             c = a * b;
-
             Console.WriteLine($"Ответ умножение целых чисел: {c}");
+
+            c = a / b;
+            Console.WriteLine($"Ответ деление целых чисел: {c}");
         }
     }
 }
