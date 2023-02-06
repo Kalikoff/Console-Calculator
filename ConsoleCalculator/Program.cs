@@ -3,13 +3,13 @@
 namespace ConsoleCalculator {
     class Program {
         static void Main(string[] args) {
-            int a, b, c;
+            double a, b, c;
 
             Console.WriteLine("Введите первое число: ");
-            a = Convert.ToInt32(Console.ReadLine());
+            a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Введите второе число: ");
-            b = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToDouble(Console.ReadLine());
 
             c = a + b;
             Console.WriteLine($"Ответ сложение целых чисел: {c}");
